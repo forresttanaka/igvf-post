@@ -1,0 +1,12 @@
+{
+    "localhost": {
+        "server": "http://localhost:8000",
+        "key":"A65OYKQ3",
+        "secret": "c27yjsk4a42joedt"
+    },
+    "demo": {
+        "server": "https://encd-5353-cart-limit-pr1-fytanaka.demo.encodedcc.org",
+        "key":"XXXXXXXX",
+        "secret": "xxxxxxxxxxxxxxxx"
+    }
+}
