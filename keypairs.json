@@ -1,12 +1,12 @@
 {
     "localhost": {
         "server": "http://localhost:8000",
-        "key":"A65OYKQ3",
-        "secret": "c27yjsk4a42joedt"
+        "key":"6RUAED7D",
+        "secret": "e3qzhmvptl6bxw5e"
     },
     "demo": {
-        "server": "https://encd-5353-cart-limit-pr1-fytanaka.demo.encodedcc.org",
-        "key":"XXXXXXXX",
-        "secret": "xxxxxxxxxxxxxxxx"
+        "server": "https://igvfd-igvf-302-limit.demo.igvf.org",
+        "key":"I6LQGAVN",
+        "secret": "onessuccxdk7fnzv"
     }
 }

@@ -50,6 +50,9 @@ function tsvToObjects(tsv) {
           const propertyName = property.split("-")[0];
           const normalDate = new Date(values[index]);
           object[propertyName] = normalDate.toISOString().split("T")[0];
+        } else if (propertyType === "number") {
+          const propertyName = property.split("-")[0];
+          object[propertyName] = Number(values[index]);
         } else {
           object[property] = values[index];
         }
@@ -103,7 +106,6 @@ const keyFileData = fs.readFileSync(
   "utf8"
 );
 const keyFile = JSON.parse(keyFileData);
-console.log("keyFileData %o", keyFile[options.key]);
 const data = fs.readFileSync(path.resolve(__dirname, options.tsv), "utf8");
 const objects = tsvToObjects(data);
 const auth = keypairToAuth(
