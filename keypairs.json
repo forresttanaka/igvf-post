@@ -1,12 +1,12 @@
 {
     "localhost": {
         "server": "http://localhost:8000",
-        "key":"6RUAED7D",
-        "secret": "e3qzhmvptl6bxw5e"
+        "key":"XXXXXXXX",
+        "secret": "xxxxxxxxxxxxxxxx"
     },
     "demo": {
-        "server": "https://igvfd-igvf-302-limit.demo.igvf.org",
-        "key":"I6LQGAVN",
-        "secret": "onessuccxdk7fnzv"
+        "server": "https://igvfd-dev.demo.igvf.org",
+        "key":"XXXXXXXX",
+        "secret": "xxxxxxxxxxxxxxxx"
     }
 }
